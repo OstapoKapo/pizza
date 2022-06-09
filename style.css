@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    color: #fff;
+    
+    font-family: cursive;
+    z-index: 1;
+}
+
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #333;
+    z-index: 2;
+    font-family: cursive;
+}
+
+
+.choose {
+    border-bottom: 3px dotted #ed9907;
+    padding: 20px 30px;
+    width: 300px;
+    height: 60px;
+    text-align: left;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 18px;
+    color: #ed9907;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.pizza {
+    min-width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+    background-image: url(img/bace.png);
+    background-size: cover;
+    margin-left: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 0 0 100px #000;
+}
+
+div {
+    text-align: center;
+}
+
+.choseOpen {
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+
+
+
+h2 {
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    border: 1px solid #ed9907;
+    padding: 10px;
+    background-color: #ed9907;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+p {
+    /*    color: #333;*/
+    font-family: sans-serif;
+    position: relative;
+    /*    left: px;*/
+    /*    margin-bottom: 20px;*/
+    /*    font-family: 'Dancing Script', cursive;*/
+}
+
+.choseOpen {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #333;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.item1 {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #333;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.feta {
+    background-image: url(img/feta.png);
+    background-size: cover;
+
+    z-index: 2;
+}
+
+.moza {
+    background-image: url(img/motza.png);
+    background-size: cover;
+
+}
+
+.cheder {
+    background-image: url(img/cheder.png);
+    background-size: cover;
+
+}
+
+.blu {
+    background-image: url(img/blu.png);
+    background-size: cover;
+
+}
+
+.parm {
+    background-image: url(img/parmezan.png);
+    background-size: cover;
+
+}
+
+.chicken {
+    background-image: url(img/chicken.png);
+    background-size: cover;
+
+}
+
+.bekon {
+    background-image: url(img/bekon.png);
+    background-size: cover;
+
+}
+
+.shynka {
+    background-image: url(img/shunka.png);
+    background-size: cover;
+
+}
+
+.paperoni {
+    background-image: url(img/paparoni.png);
+    background-size: cover;
+
+}
+
+.alfredo {
+    background-image: url(img/alfredo.png);
+    background-size: cover;
+
+}
+
+.barbequ {
+    background-image: url(img/barbequ.png);
+    background-size: cover;
+
+}
+
+.chasnyk {
+    background-image: url(img/chasnyk.png);
+    background-size: cover;
+
+}
+
+.kukurudza {
+    background-image: url(img/kukurudza.png);
+    background-size: cover;
+
+}
+
+.ananas {
+    background-image: url(img/ananas.png);
+    background-size: cover;
+
+}
+
+.tomato {
+    background-image: url(img/tomato.png);
+    background-size: cover;
+
+}
+.pizzaVeg1{
+    background-image: url(img/veg.jfif);
+    background-size: cover;
+}
+.pizzaMeat1{
+    background-image: url(img/4137b487da5d06174448a8cde6b0863e.jpg);
+    background-size: cover;
+
+}
+.pizzaChease1{
+    background-image: url(img/завантаження\ \(1\).jfif);
+    background-size: cover;
+}
+.grub {
+    background-image: url(img/grub.png);
+    background-size: cover;
+
+}
+
+.shpunat {
+    background-image: url(img/shpunat.png);
+    background-size: cover;
+
+}
+
+.perets {
+    background-image: url(img/perets.png);
+    background-size: cover;
+
+}
+
+.total {
+    color: #fff;
+    min-width: 200px;
+    border: 1px solid #00b333;
+    background-color: #00b333;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.total:hover{
+    margin-top: -20px;
+    transition: 0.5s;
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+}
+.tooltip{
+    min-width: 150px;
+    height: 30px;
+    background-color: #000;
+/*
+    position: relative;
+    margin-top: -30px;
+*/
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: monospace;
+    font-weight: 900;
+}
+.footer{
+  margin-top:-100px;
+    width: 1920px;
+    height:80px;
+    
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #666;
+    justify-content: center;
+}
+.footer__name{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+.footer__logo{
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.footer__logo img{
+    width: 100%;
+    height: 100%;
+
+}
+.footer__header{
+  
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer__ul{
+    display: flex;
+   margin-left: 50px;
+}
+.footer__li{
+    margin:0 80px ;
+    transition: 0.5s;
+    
+
+}
+.footer__li:hover{
+    color: #00b333;
+    transition: 0.5s;
+}
+a{
+    color: #666;
+    list-style: none;
+    margin-right: 10px;
+    transition: 0.5s;
+margin-left: 50px;
+
+text-decoration: none;
+}
+a:hover{
+    color: #00b333;
+    transition: 0.5s;
+}
+span{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 10px;
+}

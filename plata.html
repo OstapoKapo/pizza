@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plata</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="wrap" id="wrap">
+        <div class="wrap__header">Оформлення замовлення</div>
+        <div class="oplata" id="oplata">
+            <div class="left">
+                <div class="info">
+                    <div class="info__header">
+                        <div class="number">1</div>
+                        <p class="underHeader">Контактні дані</p>
+                    </div>
+                  <input type="text" name="" class="inp" placeholder="*Ведіть ім'я" id="">
+                  <input type="text" name="" class="inp" placeholder="*Ваш номер телефону" id="">
+                  <input type="text" name="" class="inp" placeholder="*E-mail,Щоб отримати копію замовлення" id="">
+                </div>
+                <div class="header">
+                    <div class="number">2</div>
+                    <p class="underHeader">Інформація про доставку</p>
+                </div>
+                <div class="export">
+                    <div class="export__left" id="left">Доставка кур'ром</div>
+                    <div class="export__right" id="right">Самовивіз</div>
+                </div>
+                <div class="kyrer " id="kyrer">
+                    <p class="export__p">Час доставки може бути збільшенор про це вас повідомить оператор</p>
+                    <div class="kyrer__row">
+                        <input type="text" name="" class="export__inp" placeholder="*Ведіьб вулицю доставки" id="">
+                        <input type="text" name="" class="export__inp2" placeholder="*N-будинку" id="">
+                    </div>
+                    <div class="kyrer__row">
+                        <input type="text" name="" class="export__inp3" placeholder="Під'їзд" id="">
+                        <input type="text" name="" class="export__inp3" placeholder="Квартира" id="">
+                        <input type="text" name="" class="export__inp3" placeholder="Поверх" id="">
+                        <input type="text" name="" class="export__inp3" placeholder="Домофон" id="">
+                    </div>
+                   
+                </div>
+                <div class="itself" id="it">
+                    <div class="itself__btn" id="btn1">
+                        <div class="itself__img">
+                            <img src="img/17736.png" alt="">
+                        </div>
+                        <p class="itslef__p">Вул.Галицька 112д</p>
+                    </div>
+                    <div class="itself__btn" id="btn2">
+                        <div class="itself__img">
+                            <img src="img/17736.png" alt="">
+                        </div>
+                        <p class="itslef__p">Вул.Слобідьска 2</p>
+                    </div>
+                    <div class="itself__btn" id="btn3">
+                        <div class="itself__img">
+                            <img src="img/17736.png" alt="">
+                        </div>
+                        <p class="itslef__p">Вул.Володимира Івасюка 12 </p>
+                    </div>
+                </div>
+                <div class="export">
+                    <div class="export__left" id="time__left">Якомого швидше</div>
+                    <div class="export__right" id="time__right" >На час</div>
+                </div>
+                <div class="on-time" id="onTime">
+                    <input type="date" name="" class="time__inp" placeholder="*Ведіть дату" id="">
+                    <input type="time" name="" class="time__inp" placeholder="*Ведіть час" id="">
+                </div>
+
+                
+            </div>
+            <div class="right">
+                <div class="info__header">
+                  
+                    <p class="underHeader">Ваш замовлення</p>
+                </div>
+                <div class="pizza">
+                    <div class="pizza__img">
+                    <img src="img/paperonnew.png" alt="">
+                    </div>
+                    <div class="pizza__name">Ostap's Pizaa</div>
+                    <div class="pizza__radius">30см</div>
+                    <div class="pizza__number">
+                        <div class="pizza__left" id="pizza__left">-</div>
+                        <div class="pizza__centr" id="number">1</div>
+                        <div class="pizza__right" id="pizza__right">+</div>
+                    </div>
+                    <p class="pizza__price" id="price">325грн</p>
+                </div>
+                <div class="line"></div>
+                <div class="info__header">
+                    <div class="number">3</div>
+                    <p class="underHeader">Інформація про оплату</p>
+                </div>
+                <div class="export">
+                    <div class="price__left" id="price__left">Готівка при отримані</div>
+                    <div class="price__centre" id="price__centre" >Платіжною карткою</div>
+                    <div class="price__right" id="price__right" >Paymant through the terminal</div>
+                </div>
+
+                <div class="line2"></div>
+
+                <div class="promo">
+                    <p class="promo__p">Вести промокод</p>
+                    <input type="text" name="" class=" promo__inp"  id="inp">
+                    <div class="promo__btn" id="btn">Застосувати</div>
+
+                </div>
+
+                <div class="last">
+                    <div class="last__p" id="sume">Сума:325грн</div>
+                    <div class="last__btn" id="ok">Оформити замолвнення</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="ok" id="as">
+            <div class="ok__p">Приємно було мати </div>
+            <div class="ok__p"> з вами справу </div>
+            <a href="index.html"><div class="ok__btn" id="ok2">Завершити</div></a>
+        </div>
+
+        <div class="footer">
+       
+            <div class="footer__logo">
+                <img src="img/wondicon-ui-free-website_111210.png" alt="">
+               
+            </div>
+            <div class="footer__header">Pizza Constructor. Усі права захищенні</div>
+       
+        <div class="footer__ul">
+            <div class="footer__li">Публічна оферта</div>
+            <div class="footer__li">Політика конфіденційності</div>
+            <a class="developer" href="https://redstone.media/">
+                <span>Розробка сайтів </span>
+                 <img src="https://prontopizza.ua/wp-content/themes/prontopizza/img/icons/redstone-icon.svg" alt="REDSTONE">
+            </a>
+        </div>
+    </div>
+    </div>
+
+    <script>
+
+        let b = 325;
+        let a = 1
+        let c = 325
+
+btn.onclick = function(){
+inp.value = ''
+}
+
+ok.onclick = function(){
+    oplata.style.filter = 'blur(4px)'
+    as.style.display = 'flex'
+
+}
+
+ok2.onclick = function(){
+    oplata.style.filter = 'blur(0px)'
+}
+
+
+  
+
+    pizza__left.onclick = function(){
+            a--
+            number.innerText = a
+            c = c-b
+            price.innerText = c
+            sume.innerText =   'Сума' + ':' + c+'грн'
+            
+            
+            
+        }
+    
+
+        pizza__right.onclick = function(){
+            a++
+            
+            number.innerText = a
+            c = c+b
+            price.innerText = c
+            sume.innerText =  'Сума' + ':' + c +'грн'
+            
+            
+        }
+        
+        
+
+$('#right').click(function () {
+    
+    $('#kyrer').hide(200);
+    $('#it').show(200);
+
+    right.style.color = '#fff'
+    right.style.backgroundColor = '#00b333'
+    left.style.backgroundColor = '#fff'
+    left.style.color = '#666'
+
+   
+})
+
+$('#left').click(function () {
+    $('#it').hide(200);
+    $('#kyrer').show(200);
+    right.style.color = '#666'
+    right.style.backgroundColor = '#fff'
+    left.style.backgroundColor = '#00b333'
+    left.style.color = '#fff'
+
+   
+})
+
+$('#btn1').click(function() {
+    btn1.style.border = '1px solid #00b333'
+    btn2.style.border = '1px solid #E6E6E6'
+    btn3.style.border = '1px solid #E6E6E6'
+})
+$('#btn2').click(function() {
+    btn1.style.border = '1px solid #E6E6E6'
+    btn2.style.border = '1px solid #00b333'
+    btn3.style.border = '1px solid #E6E6E6'
+})
+$('#btn3').click(function() {
+    btn1.style.border = '1px solid #E6E6E6'
+    btn2.style.border = '1px solid #E6E6E6'
+    btn3.style.border = '1px solid #00b333'
+})
+
+
+$('#time__right').click(function () {
+    
+  
+    $('#onTime').show(200);
+    onTime.style.display = 'flex'
+    time__right.style.color = '#fff'
+    time__right.style.backgroundColor = '#00b333'
+    time__left.style.backgroundColor = '#fff'
+    time__left.style.color = '#666'
+
+   
+})
+
+$('#time__left').click(function () {
+    
+    $('#onTime').hide(200);
+
+    time__right.style.color = '#666'
+    time__right.style.backgroundColor = '#fff'
+    time__left.style.backgroundColor = '#00b333'
+    time__left.style.color = '#fff'
+
+   
+})
+
+
+
+
+$('#price__right').click(function () {
+    
+   
+
+    price__right.style.color = '#fff'
+    price__right.style.backgroundColor = '#00b333'
+    price__left.style.backgroundColor = '#fff'
+    price__left.style.color = '#666'
+    price__centre.style.backgroundColor = '#fff'
+    price__centre.style.color = '#666'
+
+
+   
+})
+
+$('#price__left').click(function () {
+    price__centre.style.backgroundColor = '#fff'
+    price__centre.style.color = '#666'
+    price__right.style.color = '#666'
+    price__right.style.backgroundColor = '#fff'
+    price__left.style.backgroundColor = '#00b333'
+    price__left.style.color = '#fff'
+
+   
+})
+
+$('#price__centre').click(function () {
+    price__centre.style.backgroundColor = '#00b333'
+    price__centre.style.color = '#fff'
+    price__right.style.color = '#666'
+    price__right.style.backgroundColor = '#fff'
+    price__left.style.backgroundColor = '#fff'
+    price__left.style.color = '#666'
+
+   
+})
+
+
+    </script>
+</body>
+
+
+</html>
